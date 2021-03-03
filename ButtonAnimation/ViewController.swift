@@ -17,7 +17,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        setupButton()
+    
     }
 
 
@@ -26,6 +28,17 @@ class ViewController: UIViewController {
         FlushButton.layer.cornerRadius = 8
         ShakeButton.layer.cornerRadius = 8
     }
+    
+
+    @IBAction func pulseButtonTapped(_ sender: UIButton) {
+    }
+
+    @IBAction func flushButtonTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func shakeButtonTapped(_ sender: UIButton) {
+    }
+    
     
 }
 

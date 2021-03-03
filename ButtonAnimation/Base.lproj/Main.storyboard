@@ -25,6 +25,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <state key="normal" title="Pulse"/>
+                                <connections>
+                                    <action selector="pulseButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rH9-Z5-WTl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xIE-PC-fu5">
                                 <rect key="frame" x="132" y="314" width="150" height="70"/>
@@ -35,6 +38,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <state key="normal" title="Flush"/>
+                                <connections>
+                                    <action selector="flushButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bcf-cs-3RI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NgS-TR-09W">
                                 <rect key="frame" x="132" y="434" width="150" height="70"/>
@@ -45,6 +51,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <state key="normal" title="Shake"/>
+                                <connections>
+                                    <action selector="shakeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rR4-17-JPK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
