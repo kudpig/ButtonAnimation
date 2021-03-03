@@ -31,6 +31,7 @@ class ViewController: UIViewController {
     
 
     @IBAction func pulseButtonTapped(_ sender: UIButton) {
+        sender.pulsate()
     }
 
     @IBAction func flushButtonTapped(_ sender: UIButton) {
