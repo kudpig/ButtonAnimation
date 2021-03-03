@@ -35,9 +35,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func flushButtonTapped(_ sender: UIButton) {
+        sender.flash()
     }
     
     @IBAction func shakeButtonTapped(_ sender: UIButton) {
+        sender.shake()
     }
     
     
